@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public class Compare_CompareTo {
+
+
+
+	public static void main(String[] args) {   
+  
+  //Array  great  and print;                                           //5,3,10,18,92
+  	int []arr= {5,3,10,18,92};
+		for(int i:arr) {
+			System.out.println(i);
+		}
+    
+    
+  //Array sort  After print;
+		Arrays.sort(arr);                                                 //3,5,10,18,92
+		System.out.println("after sorting");
+		for(int i:arr) {
+			System.out.println(i);
+		} 
+  //String Array Greate (non primitive type);  
+    
+		String[]name= {"Arul","Viyan","Niraimathi","kavin"};            //Arul,viyan,niraimathi,Kavin
+		System.out.println("Before sorting name");
+		Arrays.sort(name);
+
+		for(String str:name) {
+			System.out.println(str);		                               //Sort After Alphpets order    Arul,kavin ,niraimathi,viyan
+	
+		}
+		
+
+	}
+}
