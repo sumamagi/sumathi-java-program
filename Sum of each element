@@ -1,0 +1,25 @@
+package qustines_1;
+
+import java.util.Scanner;
+
+public class Sum_Digits {
+
+	public static void main(String[] args) {
+	int rem,num,sum=0;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the number");
+	num=sc.nextInt();
+	while(num!=0) {
+		rem=num%10;
+		sum=sum+rem;
+		num=num/10;
+	}
+	
+	System.out.println("Sum of Digits of number:"+sum);
+
+	}
+
+
+// input:1234 -->output:1+2+3+4=10
+
+}
