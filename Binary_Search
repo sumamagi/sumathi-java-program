@@ -1,0 +1,40 @@
+import java. util.*;
+public class ArrayBasic {          //binary search;
+
+	public static  void main(String[] args) {
+		ArrayBasic ab=new ArrayBasic();
+		 int position=ab.dobinarySearch();
+		 if(position>0) {
+			 System.out.println("Key is present in"+position);
+		 }
+		 else {
+			 
+		 
+			 System.out.println("Key is not present");
+	}
+	}
+
+	private int dobinarySearch() {       //method calling
+		int []ar= {10,20,34,45,67,89};
+		int min=0,max=ar.length-1;    
+		int key=38;                    //search element
+		while(min<=max) {
+			int mid=(min+max)/2;       //average = (min +max)/2 
+			if(key==ar[mid]) {
+				return mid;
+			}
+			else if(key<ar[mid]) {   //key<ar{mind}   // max=(min -1)
+				max=mid-1;
+			}
+			else {
+				min =mid+1;         //key>mid=mid+1;
+			}
+		}
+		return-1;
+	}
+	}
+//38=not pesent;
+
+	
+
+
