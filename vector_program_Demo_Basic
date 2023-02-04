@@ -1,0 +1,49 @@
+import java.util.Vector;
+
+public class vectorDemo {
+
+	public static void main(String[] args) {
+	/* 1	Vector v=new Vector();                         //defalt capacity 10
+		    System.out.println(v.capacity());
+		     for(int i=1;i<=10;i++) {
+			    v.addElement(i);                                //10 element print
+		}
+		          System.out.println(v);
+
+		           System.out.println(v.capacity());
+                       v.addElement(11);                         //add 11 element
+                      System.out.println(v);
+
+                      System.out.println(v.capacity());         //size ingress 10(10+10=20);*/
+		
+		
+		
+	/*2	      Vector v=new Vector(25);                                //vector v1=new vector (innitiyalcapacity);
+		             for(int i=1;i<=25;i++) {
+			            v.addElement(i);                                //10 element print
+		}
+		            System.out.println(v);
+		             System.out.println(v.capacity());
+
+                     v.addElement(26);
+                  System.out.println(v.capacity());
+*/
+		Vector v2=new Vector(25,5);                                     //vector v2=new vector(innitialcapacity,increment)
+		for(int i=1;i<=25;i++) {                                        //   25             5
+			v2.addElement(i);
+		}
+		System.out.println(v2);
+		System.out.println(v2.capacity());
+		v2.addElement(4);		
+		v2.addElement(5);
+
+		v2.addElement(6);
+		v2.addElement(7);
+		v2.addElement(3);
+		v2.addElement(1);
+
+System.out.println(v2.capacity());
+
+	}
+//intialsation value negative la kodutha illical arguments exsaption;s
+}
