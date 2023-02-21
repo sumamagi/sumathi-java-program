@@ -1,0 +1,50 @@
+<!--structural markep all-->
+<!DOCTYPE html>
+<html>                                                                    HTML TAG
+    <head>                                                                 HEAT TAG AND BODY TAG HEAT IS EXTRA INFORMATION AND BOD TAG IS ATHOER WAYSE
+     </head>
+       <body>
+        <h1>ZOHO SCHOOLS  </h1>                                                 h1 IS STATING SIZE OF HEATLINE H6 VARAIKUM IRUKU
+        <h3> STUDENT ADMITION FORM </h3>
+                                                                           <!--  super power a2-->
+        <p> a <sup>2</sup></p>
+                                                                              <!--sub h20-->
+        <p>h<sub> 2</sub>o</p>
+        <p>
+                                                                                           <!-- breaking line go to next line-->
+          hello,<br/>
+          i am a softwer devalapment student
+                                                                                         <!--harisantal line -------------------->
+          <hr>
+
+                                                                                     <!-- EXtra information is semantic markep-->
+          <p><strong> consoult your doctor</strong></p>
+                                                                                     <!--string is bold letter  and <b></b> also bold-->
+          <em> do not</em> try this at home<br/>
+                                                                                 <!--itlalick same <i></i> letter lite a  bending-->
+          <q> the ability  to observe without equation</q>
+                                                                           <!-- double quates and same big line <blockquote></blockquote>-->
+          <abbr>ISRO</abbr>
+                                                                                <!-- sort a koduka-->
+          <cite> the future of amind</cite> 
+                                                                                 <!--reference book or some one-->
+          <dfn> democracy is a system of goverment by</dfn>
+                                                                                 <!--defination some one-->
+          <address> sumathi@123</address>
+                                                                              <!--email or mobile no or some one-->
+          <p> <del> $400</del><ins> $500</ins></p>
+                                                                             <!--code before  now same <s> any one write</s>-->
+
+
+        </p>                                                                <b></b> =>BOLD LETTER
+        
+         </body>                                                             <i></i>=>ITALI LETTER =>letter light a benting
+
+      </html>                                                                   <br/> =>bracing line go to next line
+                                                                                     <!-- comment-->
+
+
+
+
+
+
